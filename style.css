@@ -78,7 +78,7 @@ footer span:hover {
     position: relative
 }
 header .main-img:hover::after {
-    content: url("./images/icon-view.svg");
+    content: url("images/icon-view.svg");
     background-color: rgba(28, 231, 235, 0.5);
     position: absolute;
     top: 0;
