@@ -68,3 +68,26 @@ footer p {
 footer span {
     color: white;
 }
+header h2:hover {
+    color: #1CE7EB;
+}
+footer span:hover {
+    color: #1CE7EB;
+}
+.main-img {
+    position: relative
+}
+header .main-img:hover::after {
+    content: url("./images/icon-view.svg");
+    background-color: rgba(28, 231, 235, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 320px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
